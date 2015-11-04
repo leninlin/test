@@ -1,0 +1,236 @@
+/* Extra small devices (phones, less than 768px) */
+/* No media query since this is the default in Bootstrap */
+
+body {
+    font-family: "Fira Mono","Helvetica Neue",Helvetica,Arial,sans-serif;
+    text-align: left;
+    line-height: 1.3;
+}
+
+h1 {
+    text-transform: uppercase;
+    font-weight: 700;
+    letter-spacing: 1px;
+    font-size: 24px;
+    margin-bottom: 25px;
+}
+
+p {
+    font-size: 14px;
+    margin-top: 15px;
+}
+
+ul {
+    margin-top: 15px;
+}
+
+li {
+    font-size: 14px;
+}
+
+.light {
+    background-color: #FFFFFF;
+    color: #424242;
+    background: url(/img/circuit_white.jpg) no-repeat bottom center scroll;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
+
+.dark {
+    background-color: #424242;
+    color: #FFFFFF;
+    background: url(/img/circuit_gray.jpg) no-repeat bottom center scroll;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
+
+.light h1 {
+    color: #039BE5;
+}
+
+.dark h1 {
+    color: #FFC107;
+}
+
+.indented-container {
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.intro {
+    color: #FFFFFF;
+    text-align: center;
+    background: url(/img/intro-bg.jpg) no-repeat bottom center scroll;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
+
+.intro .logo {
+    height: auto;
+    max-width: 100%;
+}
+
+.btn-details {
+    color: #FFFFFF;
+}
+
+.btn-details:link,
+.btn-details:active,
+.btn-details:visited,
+.btn-details:hover {
+    color: #FFFFFF;
+}
+
+.devices {
+    text-align: center;
+}
+
+.devices .logo {
+    height: auto;
+    max-width: 100%;
+    margin-bottom: 50px;
+}
+
+.devices .indented-container {
+    margin-left: 60px;
+    margin-right: 60px;
+}
+
+.contacts {
+    text-align: center;
+}
+
+.payment {
+    color: #FFFFFF;
+    text-align: center;
+    background: url(/img/intro-bg.jpg) no-repeat bottom center scroll;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
+
+@media (min-width: 481px) {
+    h1 {
+        font-size: 24px;
+        margin-bottom: 25px;
+    }
+
+    p {
+        font-size: 18px;
+        margin-top: 15px;
+    }
+
+    ul {
+        margin-top: 15px;
+    }
+
+    li {
+        font-size: 18px;
+    }
+
+    .indented-container {
+        margin-left: 40px;
+        margin-right: 40px;
+    }
+}
+
+/* Small devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+    h1 {
+        font-size: 34px;
+        margin-bottom: 30px;
+    }
+
+    p {
+        font-size: 22px;
+        margin-top: 15px;
+    }
+
+    ul {
+        margin-top: 15px;
+    }
+
+    li {
+        font-size: 22px;
+    }
+
+    .indented-container {
+        margin-left: 80px;
+        margin-right: 80px;
+    }
+}
+
+/* Medium devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+    h1 {
+        font-size: 44px;
+        margin-bottom: 35px;
+    }
+
+    p {
+        font-size: 26px;
+        margin-top: 15px;
+    }
+
+    ul {
+        margin-top: 15px;
+    }
+
+    li {
+        font-size: 26px;
+    }
+}
+
+/* Large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+    h1 {
+        font-size: 54px;
+        margin-bottom: 40px;
+    }
+
+    p {
+        font-size: 30px;
+        margin-top: 15px;
+    }
+
+    ul {
+        margin-top: 15px;
+    }
+
+    li {
+        font-size: 30px;
+    }
+}
+
+/* Margin */
+
+.top-buffer-20px {
+    margin-top: 20px;
+}
+
+.top-buffer-40px {
+    margin-top: 40px;
+}
+
+.top-buffer-60px {
+    margin-top: 60px;
+}
+
+.top-buffer-80px {
+    margin-top: 80px;
+}
+
+.top-buffer-100px {
+    margin-top: 100px;
+}
+
+.top-buffer-120px {
+    margin-top: 120px;
+}

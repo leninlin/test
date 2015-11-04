@@ -1,0 +1,28 @@
+<div class="section light contacts">
+    <div class="indented-container">
+        <p>
+            Жми большую желтую кнопку чтобы зарегистрироваться!
+        </p>
+        <a href="http://goo.gl/forms/KdztTlxWGc" type="button" class="btn btn-warning btn-lg">
+            Зарегистрироваться!
+        </a>
+        <p class="top-buffer-60px">
+            Будь активным участником обсуждений в наших социальных сетях.
+        </p>
+        <ul class="list-inline banner-social-buttons">
+            {% for network in site.social %}
+            <li>
+                <a href="{{ network.url }}" class="btn btn-info btn-lg">
+                    <i class="fa fa-{{ network.title }} fa-fw"></i>
+                    <span class="network-name">
+                        {{ network.title }}
+                    </span>
+                </a>
+            </li>
+            {% endfor %}
+        </ul>
+        <p class="top-buffer-60px">
+            До встречи на хакатоне!
+        </p>
+    </div>
+</div>
