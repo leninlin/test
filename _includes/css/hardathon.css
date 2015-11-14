@@ -15,7 +15,7 @@ h1 {
     margin-bottom: 25px;
 }
 
-p {
+p, label, input[type="text"], input[type="number"], textarea {
     font-size: 14px;
     margin-top: 15px;
 }
@@ -53,6 +53,10 @@ li {
 }
 
 .dark h1 {
+    color: #FFC107;
+}
+
+.highlight {
     color: #FFC107;
 }
 
@@ -122,7 +126,7 @@ li {
         margin-bottom: 25px;
     }
 
-    p {
+    p, label, input[type="text"], input[type="number"], textarea {
         font-size: 18px;
         margin-top: 15px;
     }
@@ -148,8 +152,13 @@ li {
         margin-bottom: 30px;
     }
 
-    p {
+    p, label {
         font-size: 22px;
+        margin-top: 15px;
+    }
+
+    input[type="text"], input[type="number"], textarea {
+        font-size: 18px;
         margin-top: 15px;
     }
 
@@ -174,8 +183,13 @@ li {
         margin-bottom: 35px;
     }
 
-    p {
+    p, label {
         font-size: 26px;
+        margin-top: 15px;
+    }
+
+    input[type="text"], input[type="number"], textarea {
+        font-size: 18px;
         margin-top: 15px;
     }
 
@@ -195,8 +209,13 @@ li {
         margin-bottom: 40px;
     }
 
-    p {
+    p, label {
         font-size: 30px;
+        margin-top: 15px;
+    }
+
+    input[type="text"], input[type="number"], textarea {
+        font-size: 18px;
         margin-top: 15px;
     }
 
@@ -221,6 +240,10 @@ li {
 
 .top-buffer-60px {
     margin-top: 60px;
+}
+
+.bottom-buffer-60px {
+    margin-bottom: 60px;
 }
 
 .top-buffer-80px {
