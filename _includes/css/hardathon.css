@@ -28,6 +28,11 @@ li {
     font-size: 14px;
 }
 
+form p, form label, form input[type="text"], form input[type="number"], textarea {
+    font-size: 14px;
+    margin-top: 15px;
+}
+
 .light {
     background-color: #FFFFFF;
     color: #424242;
