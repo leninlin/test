@@ -100,10 +100,16 @@ form p, form label, form input[type="text"], form input[type="number"], textarea
     -o-background-size: cover;
 }
 
-.about1s span{
+.intro span{
     background-color: #111111;
     opacity: 0.7;
 }
+
+.about1s li{
+    background-color: #111111;
+    opacity: 0.7;
+}
+
 
 .about2s {
     color: #FFFFFF;
