@@ -24,6 +24,11 @@ ul {
     margin-top: 15px;
 }
 
+span{
+    background-color: #111111;
+    opacity: 0.5;
+}
+
 li {
     font-size: 14px;
 }
