@@ -300,4 +300,10 @@ form p, form label, form input[type="text"], form input[type="number"], textarea
 
 .top-buffer-120px {
     margin-top: 120px;
+
+footer {
+position: fixed; /* Фиксированное положение */
+bottom: 0; /* Левый нижний угол */
+padding: 10px;
+}
 }
