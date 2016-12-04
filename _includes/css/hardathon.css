@@ -80,6 +80,10 @@ form p, form label, form input[type="text"], form input[type="number"], textarea
     -o-background-size: cover;
 }
 
+.intro p{
+    background-color: #000000;
+}
+
 .intro .logo {
     height: auto;
     max-width: 100%;
