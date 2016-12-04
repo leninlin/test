@@ -15,6 +15,13 @@ h1 {
     margin-bottom: 25px;
 }
 
+h6 {
+    text-transform: uppercase;
+    font-weight: 700;
+    letter-spacing: 1px;
+    font-size: 8px;
+}
+
 p, label, input[type="text"], input[type="number"], textarea {
     font-size: 14px;
     margin-top: 15px;
