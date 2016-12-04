@@ -6,22 +6,6 @@
 		<h1 class="top-buffer-60px">Регистрация</h1>
 		<p class="top-buffer-20px">Рады, что ты решил зарегистрироваться на хакатон!</p>
 		<p>Пожалуйста, отнесись к заполнению формы внимательнее, ответ на каждый вопрос очень важен. Если что-то пойдет не так, обращайся за помощью в наши группы в социальных сетях. Удачи!</p>
-		<div class="form-group top-buffer-20px" style="max-width: 600px;">
-			<label class="control-label">Из какого ты города?</label>
-			<div class="radio">
-				<label class="radio-inline control-label">
-					<input type="radio" name="entry.425271325" value="Ульяновск" id="group_425271325_1">
-					Ульяновск
-				</label>
-			</div>
-			<div class="radio">
-				<label class="radio-inline control-label">
-					<input type="radio" name="entry.425271325" value="__other_option__" id="group_425271325_2">
-					Другой
-				</label>
-			</div>
-			<input placeholder="Введите название вашего города" type="text" class="form-control" id="entry_425271325_other_option_response" name="entry.425271325.other_option_response">
-		</div>
 		<div class="form-group top-buffer-20px">
 			<label class="control-label">Есть ли у тебя команда?</label>
 			<div class="radio">
@@ -36,14 +20,6 @@
 					Пока нет
 				</label>
 			</div>
-		</div>
-		<div class="form-group top-buffer-20px">
-			<label class="control-label">Количество участников</label>
-			<input type="number" class="form-control" name="entry.588435100" id="entry_588435100" placeholder="Количество участников" style="max-width: 600px;">
-		</div>
-		<div class="form-group top-buffer-20px">
-			<label class="control-label">Укажи состав команды: перечисли каждого участника (полное имя, email, роль в команде)</label>
-			<textarea type="text" class="form-control" name="entry.2145326173" id="entry_2145326173"></textarea>
 		</div>
 		<div class="form-group top-buffer-20px">
 			<label class="control-label">Есть ли у тебя идея проекта?</label>
@@ -70,15 +46,11 @@
 			<textarea type="text" class="form-control" name="entry.981360400" id="entry_981360400"></textarea>
 		</div>
 		<div class="form-group top-buffer-20px">
-			<label class="control-label">Если у тебя есть проект - расскажи о нём</label>
+			<label class="control-label">Если у тебя есть проект - расскажи о нём, опиши кратко, в чем идея</label>
 			<textarea type="text" class="form-control" name="entry.1281233396" id="entry_1281233396"></textarea>
 		</div>
 		<div class="form-group top-buffer-20px">
-			<label class="control-label">Опиши кратко, в чем идея твоего проекта</label>
-			<textarea type="text" class="form-control" name="entry.1419090290" id="entry_1419090290" ></textarea>
-		</div>
-		<div class="form-group top-buffer-20px">
-			<label class="control-label">Что нужно для успешной реализации проекта? Какие детали и инструменты тебе могут понадобиться?</label>
+			<label class="control-label">Какие детали и инструменты тебе могут понадобиться?</label>
 			<textarea type="text" class="form-control" name="entry.4626317" id="entry_4626317"></textarea>
 		</div>
 		<div class="form-group top-buffer-20px">
@@ -97,10 +69,23 @@
 			</div>
 			<div class="checkbox">
 				<label class="checkbox-inline control-label">
-					<input type="checkbox" name="entry.1083431152" value="__other_option__" id="group_1083431152_3">
-					Другой
+					<input type="checkbox" name="entry.1083431152" value="Схемотехник" id="group_1083431152_3">
+					Схемотехник
 				</label>
 			</div>
+        <div class="checkbox">
+                                <label class="checkbox-inline control-label">
+                                        <input type="checkbox" name="entry.1083431152" value="Конструктор" id="group_1083431152_4">
+                                        Конструктор
+                                </label>
+                        </div>
+        <div class="checkbox">
+                                <label class="checkbox-inline control-label">
+                                        <input type="checkbox" name="entry.1083431152" value="__other_option__" id="group_1083431152_5">
+                                        Другой
+                                </label>
+                        </div>
+
 			<input type="text" class="form-control" name="entry.1083431152.other_option_response" value="" id="entry_1083431152_other_option_response" data-rule-required="true" contenteditable="false" style="max-width: 600px;">
 		</div>
 		<p class="text-left top-buffer-20px">Укажи свои контактные данные.</p>
@@ -113,35 +98,12 @@
 			<input type="text" class="form-control" name="entry.504912949" value="" id="entry_504912949" placeholder="Email" style="max-width: 600px;">
 		</div>
 		<div class="form-group top-buffer-20px">
-			<label class="control-label">Телефон</label>
-			<input type="text" class="form-control" name="entry.64733980" value="" id="entry_64733980" placeholder="Телефон" style="max-width: 600px;">
-		</div>
-		<div class="form-group top-buffer-20px">
-			<label class="control-label">Ссылка на профиль ВКонтакте</label>
+			<label class="control-label">Ссылка на профиль в Социальных сетях</label>
 			<input type="text" class="form-control" name="entry.445285200" value="" id="entry_445285200" placeholder="Ссылка на профиль ВКонтакте" style="max-width: 600px;">
-		</div>
-		<div class="form-group top-buffer-20px">
-			<label class="control-label">Ссылка на профиль Facebook</label>
-			<input type="text" class="form-control" name="entry.198713564" value="" id="entry_198713564" placeholder="Ссылка на профиль Facebook" style="max-width: 600px;">
 		</div>
 		<div class="form-group top-buffer-20px">
 			<label class="control-label">Место работы или учебы</label>
 			<input type="text" class="form-control" name="entry.687751875" value="" id="entry_687751875" placeholder="Место работы или учебы" style="max-width: 600px;">
-		</div>
-		<div class="form-group top-buffer-20px">
-			<label class="control-label">Хочешь подписаться на рассылку о подобных мероприятиях?</label>
-			<div class="radio">
-				<label class="radio-inline control-label">
-					<input type="radio" name="entry.1325822" value="Да" id="group_1325822_1">
-					Да
-				</label>
-			</div>
-			<div class="radio">
-				<label class="radio-inline control-label">
-					<input type="radio" name="entry.1325822" value="Нет, спасибо" id="group_1325822_2">
-					Нет, спасибо
-				</label>
-			</div>
 		</div>
 		<input class="form-control" type="hidden" name="draftResponse" value="[,,&quot;-5515060556049491339&quot;]
 		">
