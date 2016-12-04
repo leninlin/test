@@ -73,7 +73,7 @@ form p, form label, form input[type="text"], form input[type="number"], textarea
 .intro {
     color: #FFFFFF;
     text-align: center;
-    background: url(/img/intro-bg.jpg) no-repeat bottom center scroll;
+    background: url(/img/2015/1.jpg) no-repeat bottom center scroll;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     background-size: cover;
@@ -84,6 +84,38 @@ form p, form label, form input[type="text"], form input[type="number"], textarea
     height: auto;
     max-width: 100%;
 }
+
+.about1s {
+    color: #FFFFFF;
+    text-align: center;
+    background: url(/img/2015/2.jpg) no-repeat bottom center scroll;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
+
+.about2s {
+    color: #FFFFFF;
+    text-align: center;
+    background: url(/img/2015/3.jpg) no-repeat bottom center scroll;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
+
+.about3s {
+    color: #FFFFFF;
+    text-align: center;
+    background: url(/img/2015/4.jpg) no-repeat bottom center scroll;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
+
+
 
 .btn-details {
     color: #FFFFFF;
