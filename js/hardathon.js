@@ -15,11 +15,12 @@ $(function() {
 // fullPage initialization
 $(document).ready(function() {
     $('#fullpage').fullpage({
-    	scrollingSpeed: 1000,    	
+    	scrollingSpeed: 500,
     	responsiveWidth: 300,
         responsiveHeight: 400,
         paddingBottom: '10px',
         paddingTop: '10px',
+        navigation:true,
         controlArrowColor: '#424242',
     });
 });
