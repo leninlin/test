@@ -1,119 +1,30 @@
-<div class="indented-container">
-	<script type="text/javascript">var submitted=false;</script>
-	<iframe name="hidden_iframe" id="hidden_iframe" style="display:none;"
-	onload="if(submitted) {window.location='http://hardathon.github.io/success';}"></iframe>
-	<form action="https://docs.google.com/forms/d/1BSBExhcMb-QRoTZHZrylo4qbk9fjdfjoz74N1k7-iS4/formResponse" method="POST" target="hidden_iframe" onsubmit="submitted=true;">
-		<h1 class="top-buffer-60px">Регистрация</h1>
-		<p class="top-buffer-20px">Рады, что ты решил зарегистрироваться на хакатон!</p>
-		<p>Пожалуйста, отнесись к заполнению формы внимательнее, ответ на каждый вопрос очень важен. Если что-то пойдет не так, обращайся за помощью в наши группы в социальных сетях. Удачи!</p>
-		<div class="form-group top-buffer-20px">
-			<label class="control-label">Есть ли у тебя команда?</label>
-			<div class="radio">
-				<label class="radio-inline control-label">
-					<input type="radio" name="entry.1874575438" value="Есть" id="group_1874575438_1">
-					Есть
-				</label>
+<div class="section dark">
+	<div class="indented-container">
+		<form id="hardathonRegisterForm" action="https://localhost:4567/api/v1/sn" method="POST" target="hidden_iframe" onsubmit="submitted=true;">
+			<h1 class="top-buffer-60px">Регистрация</h1>
+			<p class="top-buffer-40px">Рады, что ты решил зарегистрироваться на Хардатон!</p>
+			<p>После регистрации на твой Email придёт письмо со ссылкой на личный кабинет участника Хардатона и
+			дальнейшими инструкциями.</p>
+			<div class="form-group top-buffer-20px">
+				<label class="control-label">Полное имя</label>
+				<input type="text" name="hardathonUsername" form="hardathonRegisterForm" class="form-control" value=""
+												  id="hardathonUsername" placeholder="Полное имя" style="max-width: 600px;">
 			</div>
-			<div class="radio">
-				<label class="radio-inline control-label">
-					<input type="radio" name="entry.1874575438" value="Пока нет" id="group_1874575438_2">
-					Пока нет
-				</label>
+			<div class="form-group top-buffer-20px">
+				<label class="control-label">Email</label>
+				<input type="text" name="hardathonUserEmail" form="hardathonRegisterForm" class="form-control"	value=""
+												   id="hardathonUserEmail" placeholder="Email" style="max-width: 600px;">
 			</div>
-		</div>
-		<div class="form-group top-buffer-20px">
-			<label class="control-label">Есть ли у тебя идея проекта?</label>
-			<div class="radio">
-				<label class="radio-inline control-label">
-					<input type="radio" name="entry.442696799" value="Есть" id="group_442696799_1">
-					Есть
-				</label>
-			</div>
-			<div class="radio">
-				<label class="radio-inline control-label">
-					<input type="radio" name="entry.442696799" value="Пока нет" id="group_442696799_2">
-					Пока нет
-				</label>
-			</div>
-		</div>
-		<p class="text-left top-buffer-20px">Если у тебя нет идеи проекта, не растраивайся. Иногда кажется, что невозможно придумать ничего нового, но это не так. Расскажи нам побольше о себе и своих интересах и мы поможем тебе определиться с идеей.</p>
-		<div class="form-group top-buffer-20px">
-			<label class="control-label">Расскажи о своих интересах</label>
-			<textarea type="text" class="form-control" name="entry.473604742" id="entry_473604742"></textarea>
-		</div>
-		<div class="form-group top-buffer-20px">
-			<label class="control-label">Опиши кратко, с какими устройствами и технологиями ты хотел бы поработать.</label>
-			<textarea type="text" class="form-control" name="entry.981360400" id="entry_981360400"></textarea>
-		</div>
-		<div class="form-group top-buffer-20px">
-			<label class="control-label">Если у тебя есть проект - расскажи о нём:</label>
-			<textarea type="text" class="form-control" name="entry.1281233396" id="entry_1281233396"></textarea>
-		</div>
-		<div class="form-group top-buffer-20px">
-			<label class="control-label">Какие детали и инструменты тебе могут понадобиться?</label>
-			<textarea type="text" class="form-control" name="entry.4626317" id="entry_4626317"></textarea>
-		</div>
-		<div class="form-group top-buffer-20px">
-			<label class="control-label">Нужны ли вам ещё специалисты или помощники в команду?</label>
-			<div class="checkbox">
-				<label class="checkbox-inline control-label">
-					<input type="checkbox" name="entry.1083431152" value="Программист" id="group_1083431152_1">
-					Программист
-				</label>
-			</div>
-			<div class="checkbox">
-				<label class="checkbox-inline control-label">
-					<input type="checkbox" name="entry.1083431152" value="Дизайнер" id="group_1083431152_2">
-					Дизайнер
-				</label>
-			</div>
-			<div class="checkbox">
-				<label class="checkbox-inline control-label">
-					<input type="checkbox" name="entry.1083431152" value="Схемотехник" id="group_1083431152_3">
-					Схемотехник
-				</label>
-			</div>
-        <div class="checkbox">
-                                <label class="checkbox-inline control-label">
-                                        <input type="checkbox" name="entry.1083431152" value="Конструктор" id="group_1083431152_4">
-                                        Конструктор
-                                </label>
-                        </div>
-        <div class="checkbox">
-                                <label class="checkbox-inline control-label">
-                                        <input type="checkbox" name="entry.1083431152" value="__other_option__" id="group_1083431152_5">
-                                        Другой
-                                </label>
-                        </div>
+			<input class="form-control" type="hidden" name="draftResponse" value="[,,&quot;-5515060556049491339&quot;]
+			">
 
-			<input type="text" class="form-control" name="entry.1083431152.other_option_response" value="" id="entry_1083431152_other_option_response" data-rule-required="true" contenteditable="false" style="max-width: 600px;">
-		</div>
-		<p class="text-left top-buffer-20px">Укажи свои контактные данные.</p>
-	  	<div class="form-group top-buffer-20px">
-			<label class="control-label">Полное имя</label>
-			<input type="text" class="form-control" name="entry.1291811174" value="" id="entry_1291811174" placeholder="Полное имя" style="max-width: 600px;">
-		</div>
-		<div class="form-group top-buffer-20px">
-			<label class="control-label">Email</label>
-			<input type="text" class="form-control" name="entry.504912949" value="" id="entry_504912949" placeholder="Email" style="max-width: 600px;">
-		</div>
-		<div class="form-group top-buffer-20px">
-			<label class="control-label">Ссылка на профиль в Социальных сетях</label>
-			<input type="text" class="form-control" name="entry.445285200" value="" id="entry_445285200" placeholder="Ссылка на профиль ВКонтакте" style="max-width: 600px;">
-		</div>
-		<div class="form-group top-buffer-20px">
-			<label class="control-label">Место работы или учебы</label>
-			<input type="text" class="form-control" name="entry.687751875" value="" id="entry_687751875" placeholder="Место работы или учебы" style="max-width: 600px;">
-		</div>
-		<input class="form-control" type="hidden" name="draftResponse" value="[,,&quot;-5515060556049491339&quot;]
-		">
-		
-		<input class="form-control" type="hidden" name="pageHistory" value="0">
-		
-		<input class="form-control" type="hidden" name="fvv" value="0">
-		
-		<input class="form-control" type="hidden" name="fbzx" value="-5515060556049491339">
-		
-		<input class="form-control top-buffer-20px bottom-buffer-60px btn-warning" type="submit" name="submit" value="Зарегистрироваться" id="ss-submit" style="max-width: 300px;">
-	</form>
+			<input class="form-control" type="hidden" name="pageHistory" value="0">
+
+			<input class="form-control" type="hidden" name="fvv" value="0">
+
+			<input class="form-control" type="hidden" name="fbzx" value="-5515060556049491339">
+
+			<input class="form-control top-buffer-20px bottom-buffer-60px btn-warning" type="submit" name="submit" value="Зарегистрироваться" id="ss-submit" style="max-width: 300px;">
+		</form>
+	</div>
 </div>

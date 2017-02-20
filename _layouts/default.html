@@ -1,7 +1,42 @@
 <!DOCTYPE html>
 <html>
+	<meta name="viewport" content="width=device-width, user-scalable=false;">
     {% include head.html %}
     <body>
+    <nav id="menu" class="navbar navbar-inverse navbar-fixed-top">
+	    <div class="container-fluid">
+		    <div class="navbar-header">
+			    <button type="button" class="navbar-toggle" data-toggle="collapse"
+						   data-target=".navbar-collapse">
+				    <span class="sr-only">Toggle navigation</span>
+				    <span class="icon-bar"></span>
+				    <span class="icon-bar"></span>
+				    <span class="icon-bar"></span>
+			    </button>
+		    </div>
+
+			<div class="navbar-collapse collapse">
+			    <ul class="nav navbar-nav">
+				    <li data-menuanchor="main" class="active"><a href="#main" class="btn btn-link">Главная</a></li>
+					<li class="dropdown">
+						<a href="#"  class="btn btn-link dropdown-toggle" data-toggle="dropdown"
+							role="button" aria-haspopup="true" aria-expanded="false">О
+							Хардатоне <span class="caret"></span></a>
+						<ul class="dropdown-menu navbar-inverse">
+							<li><a href="#" class="btn btn-link">Зачем и как?</a></li>
+							<li><a href="#" class="btn btn-link">Когда и где?</a></li>
+						</ul>
+					</li>
+
+				    <li data-menuanchor="faq"><a href="#faq" class="btn btn-link">Вопросы и ответы</a></li>
+
+				    <li data-menuanchor="contacts"><a href="#contacts" class="btn btn-link">Контакты</a></li>
+				    <li><a href="#" class="btn btn-link">Команды</a></li>
+				    <li><a href="#" class="btn btn-link">Личный кабинет</a></li>
+			    </ul>
+		    </div>
+		    </div>
+		    </nav>
         <div id="fullpage">
             {% include intro.html %}
             {% include about.html %}
@@ -11,6 +46,7 @@
             {% include about6.html %}
             {% include contacts.html %}
             {% include js.html %}
+            {% include form.html %}
         </div>
     </body>
 </html>
