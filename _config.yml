@@ -1,8 +1,8 @@
 # Site settings
 title: Hardathon
-description: "Первый железный хакатон в Ульяновске!"
-email: hardathon@futurelab.space
-url: https://hardathon.github.io
+description: "Hardathon"
+email: info@hardathon.ru
+url: http://hardathon.ru
 
 # Social networks usernames
 social:
