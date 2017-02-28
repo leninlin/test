@@ -17,30 +17,11 @@
 				{% else %}
 				{% 	include navbar/main.html %}
 				{% endif %}
-				<li class="dropdown">
-					<a href="/#about"  class="btn btn-link dropdown-toggle" data-toggle="dropdown"
-						       role="button" aria-haspopup="true" aria-expanded="false">О
-						       Хардатоне <span class="caret"></span></a>
-					<ul class="dropdown-menu navbar-inverse">
-						<li><a href="#" class="nav btn">Зачем и как?</a></li>
-						<li><a href="#" class="nav btn">Когда и где?</a></li>
-					</ul>
-				</li>
-
+				<li data-menuanchor="about"><a href="/#about" class="btn btn-link">О Хардатоне</a></li>
+				<li data-menuanchor="how"><a href="/#how" class="btn btn-link">Что и как?</a></li>
+				<li data-menuanchor="where"><a href="/#where" class="btn btn-link">Когда и где?</a></li>
 				<li data-menuanchor="faq"><a href="/#faq" class="btn btn-link">Вопросы и ответы</a></li>
-
 				<li data-menuanchor="contacts"><a href="/#contacts" class="btn btn-link">Контакты</a></li>
-				{% if page.layout == 'teams' %}
-				{% 	include navbar/teams_active.html %}
-				{% else %}
-				{% 	include navbar/teams.html %}
-				{% endif %}
-				{% if page.layout == 'register' %}
-				<li class="active"><a href="/register" class="btn btn-link">Регистрация</a></li>
-				{% else %}
-				<li><a href="/register" class="btn btn-link">Регистрация</a></li>
-				{% endif %}
-				<li><a href="#" class="btn btn-link">Личный кабинет</a></li>
 			</ul>
 		</div>
 	</div>

@@ -36,10 +36,11 @@ $(document).ready(function() {
         responsiveHeight: 400,
         paddingBottom: '10px',
         paddingTop: '10px',
-        navigation:true,
         controlArrowColor: '#424242',
+        normalScrollElements: '#main, #about, #how, #where, #faq, #contacts',
+        normalScrollElementTouchThreshold: 3,
         menu: '#menu',
-	anchors: ['main', 'about', 'faq', 'contacts'],
+	anchors: ['main', 'about', 'how', 'where', 'faq', 'contacts'],
     });
 });
 
@@ -65,17 +66,13 @@ $("#hardathonRegisterForm").submit(function(event) {
   }
 });
 
-// Как только будет загружен API и готов DOM, выполняем инициализацию
 ymaps.ready(init);
 
 function init () {
-  // Создание экземпляра карты и его привязка к контейнеру с
-  // заданным id ("map")
   var myMap = new ymaps.Map('map', {
-    // При инициализации карты, обязательно нужно указать
-    // ее центр и коэффициент масштабирования
-    center: [56.326944, 44.0075], // Нижний Новгород
+    center: [55.746293, 37.584994],
     zoom: 13
   });
+  myMap.behaviors.disable('scrollZoom');
 }
 
