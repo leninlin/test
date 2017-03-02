@@ -31,16 +31,14 @@ $(function() {
 // fullPage initialization
 $(document).ready(function() {
     $('#fullpage').fullpage({
-    	scrollingSpeed: 500,
+        autoScrolling:false,
     	responsiveWidth: 300,
         responsiveHeight: 400,
         paddingBottom: '10px',
         paddingTop: '10px',
         controlArrowColor: '#424242',
-        normalScrollElements: '#main, #about, #how, #where, #faq, #contacts',
-        normalScrollElementTouchThreshold: 3,
         menu: '#menu',
-	anchors: ['main', 'about', 'how', 'where', 'faq', 'contacts'],
+        anchors: ['main', 'about', 'how', 'where', 'faq', 'contacts'],
     });
 });
 
@@ -75,4 +73,3 @@ function init () {
   });
   myMap.behaviors.disable('scrollZoom');
 }
-

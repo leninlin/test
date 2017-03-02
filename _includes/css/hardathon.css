@@ -86,12 +86,64 @@ form p, form label, form input[type="text"], form input[type="number"], textarea
     background-size: cover;
     -o-background-size: cover;
 }
+.dark-about {
+    background-color: #424242;
+    color: #FFFFFF;
+    background: url(/img/about.jpg) no-repeat bottom center scroll;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
+.dark-how {
+    background-color: #424242;
+    color: #FFFFFF;
+    background: url(/img/how.jpg) no-repeat bottom center scroll;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
+.dark-faq {
+    background-color: #424242;
+    color: #FFFFFF;
+    background: url(/img/circuit_gray_end.jpg) no-repeat bottom center scroll;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
+.dark-contacts {
+    background-color: #424242;
+    color: #FFFFFF;
+    background: url(/img/circuit_gray_end.jpg) no-repeat bottom center scroll;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
 
 .light h1 {
     color: #039BE5;
 }
 
 .dark h1 {
+    color: #FFC107;
+}
+.dark-about h1 {
+    color: #FFC107;
+}
+.dark-how h1 {
+    color: #FFC107;
+}
+.dark-faq h1 {
+    color: #FFC107;
+}
+.dark-contacts h1 {
+    color: #FFC107;
+}
+
+.dark-middle b {
     color: #FFC107;
 }
 
@@ -223,7 +275,7 @@ form p, form label, form input[type="text"], form input[type="number"], textarea
     }
 
     p, label {
-        font-size: 22px;
+        font-size: 18px;
         margin-top: 15px;
     }
 
@@ -254,7 +306,7 @@ form p, form label, form input[type="text"], form input[type="number"], textarea
     }
 
     p, label {
-        font-size: 26px;
+        font-size: 22px;
         margin-top: 15px;
     }
 
@@ -268,7 +320,7 @@ form p, form label, form input[type="text"], form input[type="number"], textarea
     }
 
     li {
-        font-size: 26px;
+        font-size: 22px;
     }
 }
 
@@ -286,7 +338,7 @@ form p, form label, form input[type="text"], form input[type="number"], textarea
     }
 
     p, label {
-        font-size: 30px;
+        font-size: 22px;
         margin-top: 15px;
     }
 
@@ -300,7 +352,7 @@ form p, form label, form input[type="text"], form input[type="number"], textarea
     }
 
     li {
-        font-size: 30px;
+        font-size: 22px;
     }
 }
 
