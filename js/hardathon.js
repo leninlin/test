@@ -32,13 +32,14 @@ $(function() {
 $(document).ready(function() {
     $('#fullpage').fullpage({
         autoScrolling:false,
+        normalScrollElements: '#main, #about, #how, #where, #faq, #contacts',
     	responsiveWidth: 300,
         responsiveHeight: 400,
         paddingBottom: '10px',
         paddingTop: '10px',
         controlArrowColor: '#424242',
         menu: '#menu',
-        anchors: ['main', 'about', 'how', 'where', 'faq', 'contacts'],
+        anchors: ['main', 'about', 'how', 'where', 'faq', 'contacts']
     });
 });
 

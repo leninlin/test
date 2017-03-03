@@ -104,24 +104,6 @@ form p, form label, form input[type="text"], form input[type="number"], textarea
     background-size: cover;
     -o-background-size: cover;
 }
-.dark-faq {
-    background-color: #424242;
-    color: #FFFFFF;
-    background: url(/img/circuit_gray_end.jpg) no-repeat bottom center scroll;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    background-size: cover;
-    -o-background-size: cover;
-}
-.dark-contacts {
-    background-color: #424242;
-    color: #FFFFFF;
-    background: url(/img/circuit_gray_end.jpg) no-repeat bottom center scroll;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    background-size: cover;
-    -o-background-size: cover;
-}
 
 .light h1 {
     color: #039BE5;
