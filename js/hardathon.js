@@ -41,6 +41,18 @@ $(document).ready(function() {
         menu: '#menu',
         anchors: ['main', 'about', 'how', 'where', 'faq', 'contacts']
     });
+
+    var count=0;
+    $("body").on('keypress', function(e) {
+          if (e.which == 1099 ||  e.which == 1067 ||  e.which ==  83 ||  e.which == 115) {
+              count++;
+              if(count===5) {
+                $('.kitty').addClass('active');
+                setTimeout(function() { $('.kitty').removeClass('active') }, 5000);
+                count=0;
+              }
+          }
+     });
 });
 
 $("#hardathonRegisterForm").submit(function(event) {

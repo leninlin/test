@@ -182,7 +182,49 @@ form p, form label, form input[type="text"], form input[type="number"], textarea
     -o-background-size: cover;
 }
 
+.kitty {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    transform: translate(-100%, 100%);
+    background: url('/img/kitty.jpg') left bottom no-repeat;
+    transition: 0.4s transform ease-in;
+    background-size: contain;
+    max-width: 350px;
+    max-height: 320px;
+    width: 30%;
+    height: 20%;
+}
 
+.kitty.active {
+    transform: translate(0, 0);
+    transition: 0.4s transform ease-out;
+}
+
+@keyframes kitty {
+	0%	{ transform: translate(-20px, 100%) rotate(20deg); }
+  50%	{ transform: translate(-15px, 50%); }
+	50%	{ transform: translate(-20px, 40%) rotate(-10deg); }
+  75% { transform: translate(-15px, 40%); }
+	100%	{ transform: translate(-20px, 100%) rotate(10deg); }
+	}
+
+.kitty-hand {
+    position: fixed;
+    left: 30px;
+    bottom: 0;
+    background: url('/img/kitty-hand.png') left bottom no-repeat;
+    background-size: contain;
+    max-width: 60px;
+    max-height: 120px;
+    width: 10%;
+    height: 30%;
+    animation: kitty 10s infinite ease;
+}
+
+.kitty.active + .kitty-hand {
+    display: none;
+}
 
 .btn-details {
     color: #FFFFFF;
