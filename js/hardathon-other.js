@@ -54,12 +54,13 @@ $("#hardathonRegisterForm").submit(function(event) {
             type: "POST",
             crossDomain: true,
             data: hardathonFormData,
-            dataType: "json",
             success: function (response) {
+                console.log(response);
                 $(window).attr('location','/success');
             },
             error: function (xhr, status) {
-                alert("error");
+                console.log(xhr);
+                alert("error " + status);
             }
         });
   }
