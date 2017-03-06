@@ -255,6 +255,13 @@ form p, form label, form input[type="text"], form input[type="number"], textarea
     display: none;
 }
 
+.orgs.row {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 10px;
+}
+
 .btn-details {
     color: #FFFFFF;
 }
