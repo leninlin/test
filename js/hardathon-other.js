@@ -31,30 +31,32 @@ $(function() {
 // fullPage initialization
 $(document).ready(function() {
     $('#fullpage').fullpage({
-    	scrollingSpeed: 500,
+        autoScrolling:false,
+        normalScrollElements: '#main, #about, #how, #where, #faq, #contacts',
     	responsiveWidth: 300,
         responsiveHeight: 400,
         paddingBottom: '10px',
         paddingTop: '10px',
-        navigation:true,
         controlArrowColor: '#424242',
+        menu: '#menu',
+        anchors: ['main', 'about', 'how', 'where', 'faq', 'contacts']
     });
 });
 
 $("#hardathonRegisterForm").submit(function(event) {
   event.preventDefault();
-  var hardathonFormData = {'username':$('#hardathonUsername').val(), 'email' : $('#hardathonUserEmail').val()};
+  var hardathonFormData = {'name':$('#hardathonUsername').val(), 'email' : $('#hardathonUserEmail').val()};
   var form = $( "#hardathonRegisterForm" );
 
   if (form.valid() === true) {
   $.ajax({
-            url: "http://localhost:4567/api/v1/register",
+            url: "http://cabinet.hardathon.ru/api/users",
             type: "POST",
             crossDomain: true,
             data: hardathonFormData,
             dataType: "json",
             success: function (response) {
-                alert(response.status);
+                $(window).attr('location','/success');
             },
             error: function (xhr, status) {
                 alert("error");
