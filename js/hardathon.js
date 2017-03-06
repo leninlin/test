@@ -15,6 +15,7 @@ $(function() {
 $(document).ready(function() {
     $('#fullpage').fullpage({
         autoScrolling:false,
+        scrollingSpeed: 500,
         normalScrollElements: '#main, #about, #how, #where, #faq, #contacts',
     	responsiveWidth: 300,
         responsiveHeight: 400,
