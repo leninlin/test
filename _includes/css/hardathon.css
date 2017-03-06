@@ -105,6 +105,16 @@ form p, form label, form input[type="text"], form input[type="number"], textarea
     -o-background-size: cover;
 }
 
+.dark-where {
+    background-color: #424242;
+    color: #FFFFFF;
+    background: url(/img/where.jpg) no-repeat bottom center scroll;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
+
 .light h1 {
     color: #039BE5;
 }
@@ -118,6 +128,9 @@ form p, form label, form input[type="text"], form input[type="number"], textarea
 .dark-how h1 {
     color: #FFC107;
 }
+.dark-where h1 {
+    color: #FFC107;
+}
 .dark-faq h1 {
     color: #FFC107;
 }
@@ -128,11 +141,19 @@ form p, form label, form input[type="text"], form input[type="number"], textarea
 .dark-about b {
     color: #FFC107;
 }
+.dark-where b {
+    color: #FFC107;
+}
+.dark-where p {
+    color: #FFFFFF;
+    font-size: 18px;
+}
 
 .highlight {
     color: #FFC107;
 }
 
+.org img { width: 100%; }
 .indented-container {
     margin-left: 20px;
     margin-right: 20px;

@@ -1,7 +1,7 @@
 /*!
  * Start Bootstrap - Grayscale Bootstrap Theme (http://startbootstrap.com)
  * Code licensed under the Apache License v2.0.
- * For details, see http://www.apache.org/licenses/LICENSE-2.0.
+ * For details, see http://www.apache.org/licenses/LICENSE-2.0
  */
 
 $.validator.setDefaults({
@@ -45,7 +45,7 @@ $(document).ready(function() {
 
 $("#hardathonRegisterForm").submit(function(event) {
   event.preventDefault();
-  var hardathonFormData = {'name':$('#hardathonUsername').val(), 'email' : $('#hardathonUserEmail').val()};
+  var hardathonFormData = { 'user' : {'name':$('#hardathonUsername').val(), 'email' : $('#hardathonUserEmail').val()}};
   var form = $( "#hardathonRegisterForm" );
 
   if (form.valid() === true) {
