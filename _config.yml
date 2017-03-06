@@ -1,12 +1,12 @@
 # Site settings
 title: Hardathon
-description: "Hardathon"
+description: "Хардатон 2017, Москва. Люди, кофе, железяки"
 email: info@hardathon.ru
 url: http://hardathon.ru
 
 # Social networks usernames
 social:
   - title: facebook
-    url: https://www.facebook.com/events/1758370364390432/
+    url: https://www.facebook.com/events/104752410053893/
   - title: vk
-    url: http://vk.com/hardathon
+    url: https://vk.com/hardathonmsk
