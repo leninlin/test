@@ -264,12 +264,12 @@ form p, form label, form input[type="text"], form input[type="number"], textarea
 
 .logs {
   width: 80%;
-  max-width: 310px;
+  max-width: 510px;
 }
 
 .double-logs {
   width: 50%;
-  max-width: 160px;
+  max-width: 250px;
 }
 
 .btn-details {
