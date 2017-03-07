@@ -262,6 +262,14 @@ form p, form label, form input[type="text"], form input[type="number"], textarea
   margin: 10px;
 }
 
+.logs {
+  width: 80%;
+}
+
+.double-logs {
+  width: 50%;
+}
+
 .btn-details {
     color: #FFFFFF;
 }
@@ -362,6 +370,14 @@ form p, form label, form input[type="text"], form input[type="number"], textarea
     .indented-container {
         margin-left: 80px;
         margin-right: 80px;
+    }
+
+    .logs {
+      width: 40%;
+    }
+
+    .double-logs {
+      width: 26%;
     }
 }
 
