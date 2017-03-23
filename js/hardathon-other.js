@@ -50,7 +50,7 @@ $("#hardathonRegisterForm").submit(function(event) {
 
   if (form.valid() === true) {
   $.ajax({
-            url: "http://cabinet.hardathon.ru/api/users",
+            url: "http://185.87.194.98/api/users",
             type: "POST",
             crossDomain: true,
             data: hardathonFormData,
