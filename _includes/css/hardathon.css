@@ -89,7 +89,7 @@ form p, form label, form input[type="text"], form input[type="number"], textarea
 .dark-about {
     background-color: #424242;
     color: #FFFFFF;
-    background: url(/img/about.jpg) no-repeat bottom center scroll;
+    background: url(./img/about.jpg) no-repeat bottom center scroll;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     background-size: cover;
@@ -98,7 +98,7 @@ form p, form label, form input[type="text"], form input[type="number"], textarea
 .dark-how {
     background-color: #424242;
     color: #FFFFFF;
-    background: url(/img/how.jpg) no-repeat bottom center scroll;
+    background: url(./img/how.jpg) no-repeat bottom center scroll;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     background-size: cover;
@@ -108,7 +108,7 @@ form p, form label, form input[type="text"], form input[type="number"], textarea
 .dark-where {
     background-color: #424242;
     color: #FFFFFF;
-    background: url(/img/where.jpg) no-repeat bottom center scroll;
+    background: url(./img/where.jpg) no-repeat bottom center scroll;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     background-size: cover;
@@ -242,7 +242,7 @@ form p, form label, form input[type="text"], form input[type="number"], textarea
     position: fixed;
     left: 30px;
     bottom: 0;
-    background: url('/img/kitty-hand.png') left bottom no-repeat;
+    background: url('./img/kitty-hand.png') left bottom no-repeat;
     background-size: contain;
     max-width: 60px;
     max-height: 120px;
@@ -305,7 +305,7 @@ form p, form label, form input[type="text"], form input[type="number"], textarea
 .payment {
     color: #FFFFFF;
     text-align: center;
-    background: url(/img/intro-bg.jpg) no-repeat bottom center scroll;
+    background: url(./img/intro-bg.jpg) no-repeat bottom center scroll;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     background-size: cover;
