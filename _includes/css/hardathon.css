@@ -44,7 +44,7 @@ form p, form label, form input[type="text"], form input[type="number"], textarea
 .light {
     background-color: #FFFFFF;
     color: #424242;
-    background: url(/img/circuit_white.jpg) no-repeat bottom center scroll;
+    background: url(./img/circuit_white.jpg) no-repeat bottom center scroll;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     background-size: cover;
@@ -54,7 +54,7 @@ form p, form label, form input[type="text"], form input[type="number"], textarea
 .dark {
     background-color: #424242;
     color: #FFFFFF;
-    background: url(/img/circuit_gray.jpg) no-repeat bottom center scroll;
+    background: url(./img/circuit_gray.jpg) no-repeat bottom center scroll;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     background-size: cover;
@@ -81,7 +81,7 @@ form p, form label, form input[type="text"], form input[type="number"], textarea
 .intro {
     color: #FFFFFF;
     text-align: center;
-    background: url(/img/2015/1.jpg) no-repeat bottom center scroll;
+    background: url(./img/2015/1.jpg) no-repeat bottom center scroll;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     background-size: cover;
@@ -96,7 +96,7 @@ form p, form label, form input[type="text"], form input[type="number"], textarea
 
 .about1s {
     color: #FFFFFF;
-    background: url(/img/2015/2.jpg) no-repeat bottom center scroll;
+    background: url(./img/2015/2.jpg) no-repeat bottom center scroll;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     background-size: cover;
@@ -106,7 +106,7 @@ form p, form label, form input[type="text"], form input[type="number"], textarea
 
 .about2s {
     color: #FFFFFF;
-    background: url(/img/2015/3.jpg) no-repeat bottom center scroll;
+    background: url(./img/2015/3.jpg) no-repeat bottom center scroll;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     background-size: cover;
@@ -115,7 +115,7 @@ form p, form label, form input[type="text"], form input[type="number"], textarea
 
 .about3s {
     color: #FFFFFF;
-    background: url(/img/2015/4.jpg) no-repeat bottom center scroll;
+    background: url(./img/2015/4.jpg) no-repeat bottom center scroll;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     background-size: cover;
@@ -157,7 +157,7 @@ form p, form label, form input[type="text"], form input[type="number"], textarea
 .payment {
     color: #FFFFFF;
     text-align: center;
-    background: url(/img/intro-bg.jpg) no-repeat bottom center scroll;
+    background: url(./img/intro-bg.jpg) no-repeat bottom center scroll;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     background-size: cover;
